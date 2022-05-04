@@ -8,27 +8,8 @@ The project is a P2P chat program, which allows users to register and chat in a 
 * SQLite3
 
 ## Module
-### [Server](./server.py)
-* Receive requests from clients
-* Update the client list in database
-* Send client list to connected client
+- run`python main.py server`
 
-### [Client](./client.py)
-* Connect to server to obtain client list and store in local database
-* Connect to other clients to send and receive messages
+- run`python main.py client1`
 
-## Example
-Sample use in [main](./main.py). <br>
-Use three command lines to run in the sequence of server, client 1, client 2. 
-* In the first command line window, run `python main.py server`
-* In the second command line window, run `python main.py client1`
-* In the third command line window, run `python main.py client2`
-* Then follow the output instructions to use the program. 
-
-## Result
-### Server
-![server result](./img/result_server.png)
-### Client 1
-![client 1 result](./img/result_client_1.png)
-### Client 2
-![client 2 result](./img/result_client_2.png)
+- run`python main.py client2`
